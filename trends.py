@@ -4,26 +4,27 @@ import matplotlib.pyplot as plt
 
 mobility_data = pandas.read_csv("applemobilitytrends-2020-04-13.csv")
 
-mobility_city_data = mobility_data[mobility_data['geo_type'] == 'city']
-mobility_country_data = mobility_data[~mobility_data.index.isin(mobility_city_data.index)]
 
-mobility_city_data = mobility_city_data.drop(['geo_type'], axis=1)
-mobility_country_data = mobility_country_data.drop(['geo_type'], axis=1)
+def transpose_df(city_name, transportation):
+    df = mobility_data[(mobility_data['region'] == city_name) &
+                       (mobility_data['transportation_type'] == transportation)]
+    df = df.drop(['geo_type'], axis=1)
+    df_t = df.melt(['region', 'transportation_type'], var_name='Date', value_name='Value')
+    df_t.Value = df_t.Value - df_t.Value.iloc[0]
 
-london_walking = mobility_city_data[(mobility_city_data['region'] == 'London') &
-                                    (mobility_city_data['transportation_type'] == "walking")]
+    return df_t
 
-london_t = london_walking.melt(['region', 'transportation_type'], var_name='Date', value_name='Value')
-london_t.Value = london_t.Value - london_t.Value.iloc[0]
 
-manc_walking = mobility_city_data[(mobility_city_data['region'] == 'Manchester') &
-                                    (mobility_city_data['transportation_type'] == "walking")]
+london_walking = transpose_df('London', 'walking')
+manc_walking = transpose_df('Manchester', 'walking')
+birm_walking = transpose_df('Birmingham - UK', 'walking')
+leeds_walking = transpose_df('Leeds', 'walking')
 
-manc_t = manc_walking.melt(['region', 'transportation_type'], var_name='Date', value_name='Value')
-manc_t.Value = manc_t.Value - manc_t.Value.iloc[0]
+for frame in [london_walking, manc_walking, birm_walking, leeds_walking]:
+    plt.plot(frame["Date"], frame["Value"], label=frame['region'][0])
+    plt.xticks(np.arange(0, 92, step=15))
+    plt.text(92, frame['Value'][91], str(frame['Value'][91]), fontsize=8)
 
-for frame in [london_t, manc_t]:
-    plt.plot(frame["Date"], frame["Value"])
-    plt.xticks(np.arange(0,92,step=15))
+plt.legend()
 plt.axvline(70, color='red')
 plt.show()
