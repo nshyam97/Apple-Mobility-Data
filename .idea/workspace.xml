@@ -14,14 +14,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="6290f1f3-3ed4-4d53-98a0-918cc0a927ea">
+    <option name="files">
+      <option value="trend_analysis.ipynb" />
+    </option>
+  </component>
   <component name="ProjectId" id="1aaTODcRyAkD7FJTE0HinoKnyjj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -73,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586972670864</updated>
-      <workItem from="1586972676290" duration="15496000" />
+      <workItem from="1586972676290" duration="16007000" />
     </task>
     <servers />
   </component>
@@ -85,25 +93,25 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1586972781537" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1587149638057">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1587150068181">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587149638057" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587150068181" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1586972945182" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1587149638055">
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1587150068179">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587149638055" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587150068179" />
     <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1586972945181" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1587149638055">
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1587150068178">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587149638055" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587150068178" />
     <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1586972945180" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1587149638056">
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1587150068180">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587149638056" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587150068180" />
     <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1586972945181" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

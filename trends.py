@@ -44,14 +44,14 @@ def create_graph(data):
     plt.show()
 
 
-london_walking = transpose_df('London', 'walking')
-manc_walking = transpose_df('Manchester', 'walking')
-birm_walking = transpose_df('Birmingham - UK', 'walking')
-leeds_walking = transpose_df('Leeds', 'walking')
+# london_walking = transpose_df('London', 'walking')
+# manc_walking = transpose_df('Manchester', 'walking')
+# birm_walking = transpose_df('Birmingham - UK', 'walking')
+# leeds_walking = transpose_df('Leeds', 'walking')
 
 # create_graph([london_walking, manc_walking, birm_walking, leeds_walking])
 
-UK_transit = transpose_df('UK', 'walking')
-US_transit = transpose_df('United States', 'walking')
-
-create_graph([UK_transit, US_transit])
+# UK_transit = transpose_df('UK', 'transit')
+# US_transit = transpose_df('United States', 'transit')
+#
+# create_graph([UK_transit, US_transit])
