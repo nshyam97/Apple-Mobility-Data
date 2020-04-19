@@ -55,3 +55,5 @@ def create_graph(data):
 # US_transit = transpose_df('United States', 'transit')
 #
 # create_graph([UK_transit, US_transit])
+
+print(mobility_data['region'].nunique())
