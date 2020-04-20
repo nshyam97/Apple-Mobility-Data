@@ -27,6 +27,7 @@ def transpose_df(region_name, transportation):
     # Return the finished dataframe, ready to plot
     return df_t
 
+
 # Function to create line graphs
 def create_graph(data):
     # Iterate through every dataframe passed through this function
@@ -44,7 +45,7 @@ def create_graph(data):
     plt.show()
 
 
-# london_walking = transpose_df('London', 'walking')
+london_walking = transpose_df('London', 'walking')
 # manc_walking = transpose_df('Manchester', 'walking')
 # birm_walking = transpose_df('Birmingham - UK', 'walking')
 # leeds_walking = transpose_df('Leeds', 'walking')
@@ -56,4 +57,5 @@ def create_graph(data):
 #
 # create_graph([UK_transit, US_transit])
 
-print(mobility_data['region'].nunique())
+print(london_walking[(london_walking.index >= pandas.Timestamp('2020-03-13')) &
+                     (london_walking.index <= pandas.Timestamp('2020-03-15'))])
