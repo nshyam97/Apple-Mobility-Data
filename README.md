@@ -1,4 +1,4 @@
-# Apple-Mobility-Data
+# Apple Mobility Data Analysis
 
 This repository includes my Apple Mobility Trends analysis in the trend_analysis.ipynb file. The trends.py file served as an initial starting point for this notebook.
 
