@@ -1,3 +1,22 @@
 [NbConvertApp] Converting notebook trend_analysis.ipynb to notebook
 [NbConvertApp] Executing notebook with kernel: python3
 [NbConvertApp] Writing 865440 bytes to trend_analysis.ipynb
+[master 3d8e74a] daily update jupyter
+ 3 files changed, 3311 insertions(+), 3296 deletions(-)
+ create mode 100644 cron.log
+ rewrite trend_analysis.ipynb (63%)
+git: 'credential-osxkeychain' is not a git command. See 'git --help'.
+git: 'credential-git' is not a git command. See 'git --help'.
+git: 'credential-osxkeychain' is not a git command. See 'git --help'.
+git: 'credential-git' is not a git command. See 'git --help'.
+To https://github.com/nshyam97/Apple-Mobility-Data.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/nshyam97/Apple-Mobility-Data.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[NbConvertApp] Converting notebook trend_analysis.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 865440 bytes to trend_analysis.ipynb
