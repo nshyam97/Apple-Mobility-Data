@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="209872c9-953e-4b8d-bdcf-52b2da5f0d1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/trend_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trend_analysis.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="209872c9-953e-4b8d-bdcf-52b2da5f0d1c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +91,7 @@
       <workItem from="1588780309276" duration="157000" />
       <workItem from="1588956022904" duration="1351000" />
       <workItem from="1589205499158" duration="230000" />
+      <workItem from="1589205910948" duration="48000" />
     </task>
     <servers />
   </component>
