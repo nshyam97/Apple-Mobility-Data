@@ -6,4 +6,6 @@ The update.sh file is a shell file I have written to be used for a cron job on m
 
 More information about the accompanying repos can be found in their respective repos.
 
+As the notebook uses plotly graphs, the static view within GitHub won't show the graphs and so you can use this [link](https://nbviewer.jupyter.org/github/nshyam97/Apple-Mobility-Report/blob/master/trend_analysis.ipynb) to view the full notebook with graphs on nbviewer.
+
 This repo serves as a personal project pulling in multiple data sources and visualisation as well as some general EDA to observe and understand trends in the data.
